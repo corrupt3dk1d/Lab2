@@ -13,7 +13,7 @@ int sum(int x=33, int y=44, bool isPrint = false) {
 
 }
 
-int func1(int n = 1) {
+int func1(int n = 1) { 
     //std::cout << 666;  // test
     if (n <= 0) 
         return 0;
@@ -40,7 +40,7 @@ int func2(int n1, int n2, int& n_link1, int& n_link2)
 }
 int main()
 {
-    int arr1[2][3] = { {3, 6, 9},{7, 1, 8} };
+    int arr1[2][3] = { {3, 6, 9},{7, 1, 8} }; //  
     int sum_of_array = 0;
     int arr2[3] = { 0, 0, 0 };
     float number = 20.84, & link1 = number, & link2 = number;
